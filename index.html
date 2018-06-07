@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Carp</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <div class="content">
+      <div class="head">
+        <img src="https://raw.githubusercontent.com/carp-lang/Carp/master/img/carp_logo_300_c.png" alt="Carp Logo">
+        <p class="tagline">A statically typed lisp, without a GC, for real-time applications</p>
+      </div>
+      <div class="benefits">
+        <h3>Benefits</h3>
+        <ul>
+          <li>Automatic and deterministic memory management</li>
+          <li>Compiled without a garbage collector, runtime, or VM</li>
+          <li>Inferred static types for great speed and reliability</li>
+          <li>Ownership tracking enables a functional programming style</li>
+          <li>Uses cache-friendly data structures and mutation under the hood</li>
+          <li>No hidden performance penalties – allocation and copying are explicit</li>
+          <li>Straightforward integration with existing C code</li>
+          <li>Generic types and algorithms</li>
+        </ul>
+      </div>
+      <div class="example">
+        <h3>Example</h3>
+        <p>Let’s say hello world!</p>
+        <pre>
+          <code>
+(load-and-use SDL)
+
+(defn draw [app rend state]
+  (bg rend &(rgb 60 90 120)))
+
+(defn main []
+  (let [app (SDLApp.create "Hello World!" 300 300)]
+    (SDLApp.run-static &app draw)))</code>
+        </pre>
+      </div>
+      <div class="links">
+        <a href="/install.html">Install</a>
+        <a href="/quickstart.html">Quickstart</a>
+        <a href="/docs.html">Docs</a>
+      </div>
+      <div class="social">
+        <a href="https://github.com/carp-lang/carp">
+          <img src="github.png" alt="github logo" width="24">
+        </a>
+      </div>
+    </div>
+  </body>
+</html>

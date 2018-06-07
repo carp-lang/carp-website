@@ -1,0 +1,80 @@
+@font-face {
+  font-family: 'cooper-hewitt';
+  src: url('CooperHewitt-Book.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'cooper-hewitt';
+  src: url('CooperHewitt-Medium.otf');
+  font-weight: bold;
+  font-style: normal;
+}
+body {
+  background-color: #d3e4f2;
+  width: 100%
+  height: 100%;
+  font-size: 20px;
+  font-family: 'cooper-hewitt';
+  font-size: 16px;
+}
+.content {
+  max-width: 80%;
+  margin-left: 10%;
+}
+.content-slim {
+  max-width: 60%;
+  margin-left: 20%;
+}
+.nav {
+  margin-bottom: 2em;
+}
+.nav a {
+  border: 0;
+  display: inline-block;
+  float: left;
+}
+.nav h2 {
+  display: inline-block;
+  margin-top: 25px;
+  padding-left: 2em;
+}
+.tagline {
+  font-size: 22px;
+  margin-bottom: 0;
+}
+.benefits {
+  max-width: 60%;
+  display: inline-block;
+  margin-bottom: 2em;
+}
+.example {
+  max-width: 40%;
+  display: inline-block;
+  float: right;
+}
+.links {
+  font-size: 24px;
+  display: flex;
+  justify-content: space-between;
+  clear: right;
+  margin-bottom: 1.5em;
+}
+a {
+  color: #000;
+  font-weight: 600;
+  text-decoration: none;
+  border-bottom: 2px solid;
+  line-height: 20px;
+}
+pre {
+  font-size: 12px;
+  background-color: #fff;
+  padding: 1em;
+}
+.social {
+  text-align: center;
+}
+.social a {
+  border: 0;
+}

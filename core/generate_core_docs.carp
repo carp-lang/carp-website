@@ -1,0 +1,34 @@
+(Project.config "title" "core")
+(Project.config "docs-directory" "./docs/core/")
+
+(load "SafeInt.carp")
+(load "Vector.carp")
+(load "Geometry.carp")
+(load "Statistics.carp")
+(load "Test.carp")
+(load "Bench.carp")
+
+(save-docs Dynamic
+           Int
+           Long
+           Bool
+           Float
+           Double
+           Vector2
+           Vector2.V2
+           Vector3
+           Vector3.V3
+           VectorN
+           VectorN.VN
+           Geometry
+           Statistics
+           String
+           Char
+           Pattern
+           Array
+           IO
+           System
+           Debug
+           Test
+           Bench
+           )

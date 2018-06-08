@@ -1,1 +1,1 @@
-[Standard Library Reference](./docs/)
+[Standard Library Reference](./core/)

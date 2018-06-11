@@ -1,1 +1,3 @@
-[The Carp Core Library Reference](http://carp-lang.github.io/Carp/core/core_index.html)
+# The Carp website
+
+The Carp website. Currently, tooling isn’t great, but we’re getting there.

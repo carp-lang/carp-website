@@ -1,3 +1,8 @@
+---
+title: Install
+permalink: install.html
+layout: default
+---
 Carp is mainly developed on macOS, but it also works fine on Linux. Windows is
 currently not supported - but please do [get in
 touch](https://gitter.im/carp-lang/Carp) if you want to help out with that!

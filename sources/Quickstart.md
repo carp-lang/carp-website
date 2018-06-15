@@ -1,3 +1,8 @@
+---
+title: Quickstart
+permalink: quickstart.html
+layout: default
+---
 After [installing Carp](./install.html), you’ll probably want to play around
 with it a bit. Documentation for Carp is currently a little sparse, but we do
 have some references to point you to!

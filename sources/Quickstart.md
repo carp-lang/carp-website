@@ -9,19 +9,10 @@ have some references to point you to!
 
 ### Language Guides
 
-- There is [a user-contributed language overview](https://blog.veitheller.de/Carp.html)
-  on the web that will help you get started with the language.
+- There is [a language overview](https://github.com/carp-lang/Carp/blob/master/docs/LanguageGuide.md)
+  in the docs that will help you get started with the language.
 - If you want to know more about the internals of the Carp compiler, there is
-  [a blog post](https://blog.veitheller.de/The_Carp_Compiler_%28as_of_2017%29.html)
+  [a document](https://github.com/carp-lang/Carp/blob/master/docs/hacking.md)
   on that as well.
-- There is [a small tutorial](https://blog.veitheller.de/Carp_and_C_%28as_of_2017%29.html)
-  on how to interface Carp and C.
-
-### Project-based Learning
-
-- [This tutorial](https://blog.veitheller.de/Introducing_anima.html) will teach
-  you how to generate a little artwork using a drawing framework written in
-  Carp.
-- A bit more algorithmically interesting, there is [a
-  tutorial](https://blog.veitheller.de/Lets_Write_a_Hashmap_in_Carp.html) on
-  how to write a Hashmap in Carp!
+- If you want to learn more about how to write macros, [check out this
+  guide!](https://github.com/carp-lang/Carp/blob/master/docs/Macros.md)

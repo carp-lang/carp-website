@@ -71,10 +71,24 @@ pre {
   font-size: 12px;
   background-color: #fff;
   padding: 1em;
+  overflow: scroll;
 }
 .social {
   text-align: center;
 }
 .social a {
   border: 0;
+}
+
+@media(max-width: 900px) {
+  .benefits {
+    display: block;
+    max-width: 100%;
+  }
+  .example {
+    display: block;
+    max-width: 100%;
+    float: none;
+    margin-bottom: 2em;
+  }
 }

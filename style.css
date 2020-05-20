@@ -78,6 +78,7 @@ pre {
 }
 .social a {
   border: 0;
+  margin: 5px;
 }
 
 @media(max-width: 900px) {
